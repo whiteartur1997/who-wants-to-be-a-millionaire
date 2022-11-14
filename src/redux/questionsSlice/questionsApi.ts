@@ -6,7 +6,7 @@ export const getQuestions = createAsyncThunk<Question [], undefined, { rejectVal
   async (_, { rejectWithValue }) => {
     const response = await fetch('./questions.json');
     if (!response.ok) {
-      return rejectWithValue((await response.json()) as string);
+      return rejectWithValue('Some error happened! Try again');
     }
     return await response.json() as Question[];
   },

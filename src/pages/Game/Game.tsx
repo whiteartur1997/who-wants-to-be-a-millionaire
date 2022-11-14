@@ -10,12 +10,15 @@ import {
   getCurrentQuestionIndex,
 } from 'redux/questionsSlice/selectors/getCurrentQuestionIndex/getCurrentQuestionIndex';
 import { useNavigate } from 'react-router-dom';
+import Typography from 'ui/Typography/Typography';
+import { getError } from 'redux/questionsSlice/selectors/getError/getError';
 
 const Game = () => {
 
   const dispatch = useAppDispatch();
   const questions = useSelector(getQuestionsList);
   const currentQuestionIndex = useSelector(getCurrentQuestionIndex);
+  const error = useSelector(getError);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -28,14 +31,23 @@ const Game = () => {
     }
   }, [questions, currentQuestionIndex]);
 
-  if (questions.length === 0 || currentQuestionIndex === null) {
+  if (!error && (questions.length === 0 || currentQuestionIndex === null)) {
     return null;
   }
 
   return (
     <div className={cls.wrapper}>
-      <Main questions={questions} currentQuestionIndex={currentQuestionIndex} />
-      <Sidebar questions={questions} currentQuestionIndex={currentQuestionIndex} />
+      {
+        error && <Typography customClass={cls.error} Element="h3" size="xl">
+          {error}
+        </Typography>
+      }
+      {
+        !error && <>
+          <Main questions={questions} currentQuestionIndex={currentQuestionIndex} />
+          <Sidebar questions={questions} currentQuestionIndex={currentQuestionIndex} />
+          </>
+      }
     </div>
   );
 };

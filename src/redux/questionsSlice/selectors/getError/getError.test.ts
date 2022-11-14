@@ -1,8 +1,8 @@
 import { StateSchema } from 'redux/store';
-import { getCurrentQuestionIndex } from './getCurrentQuestionIndex';
+import { getError } from './getError';
 
-describe('getCurrentQuestionIndex', () => {
-  test('should return 5', () => {
+describe('getError', () => {
+  test('no error', () => {
     const state:StateSchema = {
       questions: {
         gameIsWon: true,
@@ -11,9 +11,9 @@ describe('getCurrentQuestionIndex', () => {
         error: null,
       },
     };
-    expect(getCurrentQuestionIndex(state)).toBe(5);
+    expect(getError(state)).toBeNull();
   });
-  test('should return 3', () => {
+  test('error exists', () => {
     const state:StateSchema = {
       questions: {
         gameIsWon: false,
@@ -22,6 +22,6 @@ describe('getCurrentQuestionIndex', () => {
         error: null,
       },
     };
-    expect(getCurrentQuestionIndex(state)).toBe(3);
+    expect(getError(state)).toBeDefined();
   });
 });

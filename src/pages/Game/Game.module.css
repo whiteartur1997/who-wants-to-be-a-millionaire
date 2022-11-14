@@ -2,3 +2,8 @@
     min-height: 100vh;
     background-color: var(--bg-color-secondary);
 }
+
+.error {
+    padding-top: 100px;
+    text-align: center;
+}
