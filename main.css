@@ -1,0 +1,667 @@
+/*!***********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/ui/Typography/Typography.module.css ***!
+  \***********************************************************************************************************************/
+.MWE6H {
+    line-height: 1.15;
+}
+
+.Q9DTc {
+    font-weight: 600;
+}
+
+.Fs68h {
+    font-weight: 400;
+}
+
+.pLEJR {
+    color: var(--black-text);
+}
+
+.ii3__ {
+    color: var(--white-text);
+}
+
+.U_lsv {
+    color: var(--inactive-color);
+}
+
+.a2Iwp {
+    color: var(--main-color);
+}
+
+.Q9DTc {
+    font-weight: 600;
+}
+
+.Fs68h {
+    font-weight: 400;
+}
+
+.YUc7D {
+    font-size: 56px;
+}
+
+.TFCvB {
+    font-size: 32px;
+}
+
+.HuaTk {
+    font-size: 20px;
+}
+
+.zOAf7 {
+    font-size: 18px;
+}
+
+.EZsHO {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .YUc7D {
+        font-size: 32px;
+    }
+
+    .TFCvB {
+        font-size: 18px;
+    }
+
+    .HuaTk {
+        font-size: 14px;
+    }
+
+    .zOAf7 {
+        font-size: 12px;
+    }
+
+    .EZsHO {
+        font-size: 10px;
+    }
+}
+/*!**********************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/pages/NotFound/NotFound.module.css ***!
+  \**********************************************************************************************************************/
+.HlwJ6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-color-secondary);
+}
+
+.pQayA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.P0Tma {
+    margin-bottom: 30px;
+}
+/*!***************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/ui/Button/Button.module.css ***!
+  \***************************************************************************************************************/
+.S3iPT {
+    max-width: 296px;
+    width: 296px;
+    background: var(--main-color);
+    color: var(--white-text);
+    border-radius: 12px;
+    font-weight: 600;
+    height: 64px;
+    max-height: 64px;
+    padding: 21px 24px 20px;
+    border: none;
+    transition: background-color .3s ease;
+}
+
+.aJTD1 {
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.S3iPT:hover {
+    background-color: var(--main-color-hovered);
+    cursor: pointer;
+}
+
+.S3iPT:active {
+    fill: var(--main-color-active);
+    background-color: var(--main-color-active);
+}
+
+@media screen and (max-width: 768px)  {
+    .S3iPT {
+        max-width: 288px;
+        height: 48px;
+        max-height: 48px;
+        padding: 16px 24px;
+    }
+}
+/*!****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/pages/Start/Start.module.css ***!
+  \****************************************************************************************************************/
+.xLrd3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top left, var(--bg-color-main) 50%, var(--bg-color-primary) 50%);
+}
+
+.h_6De {
+    max-width: 624px;
+}
+
+.OESuq {
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .xLrd3 {
+        align-items: center;
+    }
+
+    .h_6De {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .OESuq {
+        text-align: center;
+        margin-bottom: 102px;
+    }
+}
+/*!***********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/ui/Hero/Hero.module.css ***!
+  \***********************************************************************************************************/
+.AMQio {
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+    .AMQio {
+        column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .AMQio {
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 42px;
+    }
+}
+/*!*****************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/ui/ThumbUp/ThumbUp.module.css ***!
+  \*****************************************************************************************************************/
+@media screen and (max-width: 1024px) {
+    .joB3v {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .joB3v {
+        width: 60%;
+    }
+}
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/pages/Game/Game.module.css ***!
+  \**************************************************************************************************************/
+.mnO6F {
+    min-height: 100vh;
+    background-color: var(--bg-color-secondary);
+}
+
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/pages/Game/Sidebar/Sidebar.module.css ***!
+  \*************************************************************************************************************************/
+.p7qn6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: var(--sidebar-width);
+    padding: 17px 0;
+    height: 100vh;
+    background: var(--bg-color-primary);
+    transition: transform .3s ease;
+}
+
+.BrMFn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+}
+
+.HS4l4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.ZRDOe,
+.NBNkY {
+    display: none;
+    position: absolute;
+    top: 21px;
+}
+
+.ZRDOe {
+    right: 21px;
+}
+
+.NBNkY {
+    left: -42px;
+}
+
+.e7tKQ {
+    margin-bottom: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .p7qn6 {
+        width: 100%;
+        transform: translateX(100%);
+    }
+
+    .p7qn6.vxtzl {
+        transform: translateX(0);
+    }
+
+    .ZRDOe,
+    .NBNkY {
+        display: flex;
+    }
+
+    .e7tKQ {
+        max-height: 32px;
+        margin-bottom: 8px;
+    }
+
+    .HS4l4 .e7tKQ:before {
+        left: -89%;
+    }
+
+    .HS4l4 .e7tKQ:after {
+        right: -89%;
+    }
+}
+/*!*********************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/ui/Tab/Tab.module.css ***!
+  \*********************************************************************************************************/
+.v83Rs {
+    max-width: 389px;
+    position: relative;
+}
+
+.v83Rs:before,
+.v83Rs:after {
+    content: "";
+    width: inherit;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    background: var(--inactive-color);
+}
+
+.v83Rs:before {
+    left: -100%;
+}
+
+.v83Rs:after {
+    right: -100%;
+}
+
+.JcZCQ:before,
+.JcZCQ:after {
+    width: 17px;
+}
+
+.JcZCQ:before {
+    left: -17px;
+}
+
+.JcZCQ:after {
+    right: -17px;
+}
+
+.WfD1k.v83Rs:hover:before,
+.WfD1k.v83Rs:hover:after,
+.JBFTX.v83Rs:before,
+.JBFTX.v83Rs:after {
+    background: var(--main-color);
+}
+
+.T99Az.v83Rs:before,
+.T99Az.v83Rs:after {
+    background: var(--border-color-success);
+}
+
+.T9oB4.v83Rs:before,
+.T9oB4.v83Rs:after {
+    background: var(--border-color-error);
+}
+
+.Ym8AP {
+    fill: var(--bg-color-primary);
+}
+
+.WfD1k .Ym8AP:hover {
+    cursor: pointer;
+    stroke: var(--main-color);
+}
+
+.g2oqe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.g2oqe:hover {
+    cursor: pointer;
+}
+
+.WfD1k .g2oqe:hover +  {
+    stroke: var(--main-color);
+}
+
+.j3yV4 {
+    stroke: var(--inactive-color);
+}
+
+.JBFTX {
+    fill: var(--bg-color-main);
+    stroke: var(--main-color);
+}
+
+.T99Az {
+    fill: var(--background-success);
+    stroke: var(--border-color-success);
+}
+
+.T9oB4 {
+    fill: var(--background-error);
+    stroke: var(--border-color-error);
+}
+/*!*******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/pages/Game/Main/Main.module.css ***!
+  \*******************************************************************************************************************/
+.nLXov {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 100vh;
+    width: calc(100% - var(--sidebar-width));
+    padding: 133px 0 122px 80px;
+}
+
+.NFWde {
+    font-size: 32px;
+}
+
+.ndRSJ {
+    display: flex;
+    max-width: 80%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.KQ18X {
+    flex-basis: 422px;
+    flex-shrink: 0;
+    margin-bottom: 32px;
+}
+
+.fM8Ga {
+    position: absolute;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.nrCTM {
+    margin-right: 8px;
+}
+
+@media screen and (max-width: 1300px) {
+
+    .KQ18X {
+        flex-basis: 352px;
+    }
+
+    .XaVo5 {
+        max-width: 337px;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    .nLXov {
+        padding-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .nLXov {
+        padding-left: 10px;
+        align-items: center;
+    }
+
+    .ndRSJ {
+        justify-content: center;
+        max-width: unset;
+    }
+
+    .KQ18X {
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .NFWde {
+        padding-left: 10px;
+    }
+    .nLXov {
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    .KQ18X {
+        flex-basis: 300px;
+    }
+
+    .NFWde {
+        font-size: unset;
+    }
+}
+
+/*!******************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/pages/Result/Result.module.css ***!
+  \******************************************************************************************************************/
+.bVqfY {
+    width: 100%;
+    height: 100vh;
+    background: var(--bg-color-secondary);
+    display: flex;
+    justify-content: center;
+}
+
+.lCqpm {
+    opacity: .5;
+    margin-bottom: 8px;
+}
+
+.MBRSu {
+    margin-bottom: 64px;
+}
+
+@media screen and (max-width: 768px) {
+    .VntRo {
+        text-align: center;
+    }
+
+    .MBRSu {
+        margin-bottom: 102px;
+    }
+}
+/*!*********************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].use[1]!./src/style.css ***!
+  \*********************************************************************************************/
+/* FONTS */
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/223e2f3ee1cedbbf5918.woff2) format('woff2')
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    src: url(/c975c23883fa1659120d.woff2) format('woff2')
+}
+
+html,
+body {
+    font-family: 'Inter', sans-serif;
+}
+/* FONTS */
+
+/* RESET DEFAULT BROWSER STYLES */
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/* RESET DEFAULT BROWSER STYLES */
+
+/* CSS VARIABLES DECLARATION  */
+:root {
+    --bg-color-primary: #FFFFFF;
+    --bg-color-secondary: #E5E5E5;
+    --bg-color-main: #FFF3EB;
+    --bg-color-success: #E6FAEA;
+    --bg-color-error: #FDEEED;
+    --border-color-success: #47D867;
+    --border-color-error: #EC6259;
+    --inactive-color: #D0D0D8;
+    --background-success: #E6FAEA;
+    --background-error: #FDEEED;
+    --main-color: #FF8B37;
+    --main-color-hovered: #FFAC70;
+    --main-color-active: #E87928;
+    --black-text: #1C1C21;
+    --white-text: #FFFFFF;
+    --sidebar-width: 376px;
+}
+/* CSS VARIABLES DECLARATION  */
+
