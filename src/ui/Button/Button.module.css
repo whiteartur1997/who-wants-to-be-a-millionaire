@@ -1,0 +1,39 @@
+.btn {
+    max-width: 296px;
+    width: 296px;
+    background: var(--main-color);
+    color: var(--white-text);
+    border-radius: 12px;
+    font-weight: 600;
+    height: 64px;
+    max-height: 64px;
+    padding: 21px 24px 20px;
+    border: none;
+    transition: background-color .3s ease;
+}
+
+.iconBtn {
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: var(--main-color-hovered);
+    cursor: pointer;
+}
+
+.btn:active {
+    fill: var(--main-color-active);
+    background-color: var(--main-color-active);
+}
+
+@media screen and (max-width: 768px)  {
+    .btn {
+        max-width: 288px;
+        height: 48px;
+        max-height: 48px;
+        padding: 16px 24px;
+    }
+}

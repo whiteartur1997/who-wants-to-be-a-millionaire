@@ -1,0 +1,96 @@
+.hexagon {
+    max-width: 389px;
+    position: relative;
+}
+
+.hexagon:before,
+.hexagon:after {
+    content: "";
+    width: inherit;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    background: var(--inactive-color);
+}
+
+.hexagon:before {
+    left: -100%;
+}
+
+.hexagon:after {
+    right: -100%;
+}
+
+.hexagonWithShortLines:before,
+.hexagonWithShortLines:after {
+    width: 17px;
+}
+
+.hexagonWithShortLines:before {
+    left: -17px;
+}
+
+.hexagonWithShortLines:after {
+    right: -17px;
+}
+
+.hoverable.hexagon:hover:before,
+.hoverable.hexagon:hover:after,
+.active.hexagon:before,
+.active.hexagon:after {
+    background: var(--main-color);
+}
+
+.success.hexagon:before,
+.success.hexagon:after {
+    background: var(--border-color-success);
+}
+
+.error.hexagon:before,
+.error.hexagon:after {
+    background: var(--border-color-error);
+}
+
+.hexagon_inner {
+    fill: var(--bg-color-primary);
+}
+
+.hoverable .hexagon_inner:hover {
+    cursor: pointer;
+    stroke: var(--main-color);
+}
+
+.content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.content:hover {
+    cursor: pointer;
+}
+
+.hoverable .content:hover +  {
+    stroke: var(--main-color);
+}
+
+.inactive {
+    stroke: var(--inactive-color);
+}
+
+.active {
+    fill: var(--bg-color-main);
+    stroke: var(--main-color);
+}
+
+.success {
+    fill: var(--background-success);
+    stroke: var(--border-color-success);
+}
+
+.error {
+    fill: var(--background-error);
+    stroke: var(--border-color-error);
+}

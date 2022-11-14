@@ -1,0 +1,77 @@
+.typography {
+    line-height: 1.15;
+}
+
+.semiBold {
+    font-weight: 600;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.black {
+    color: var(--black-text);
+}
+
+.white {
+    color: var(--white-text);
+}
+
+.grey {
+    color: var(--inactive-color);
+}
+
+.main {
+    color: var(--main-color);
+}
+
+.semiBold {
+    font-weight: 600;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.sizeXl {
+    font-size: 56px;
+}
+
+.sizeL {
+    font-size: 32px;
+}
+
+.sizeM {
+    font-size: 20px;
+}
+
+.sizeS {
+    font-size: 18px;
+}
+
+.sizeXs {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .sizeXl {
+        font-size: 32px;
+    }
+
+    .sizeL {
+        font-size: 18px;
+    }
+
+    .sizeM {
+        font-size: 14px;
+    }
+
+    .sizeS {
+        font-size: 12px;
+    }
+
+    .sizeXs {
+        font-size: 10px;
+    }
+}

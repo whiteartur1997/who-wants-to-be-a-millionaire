@@ -1,0 +1,266 @@
+[
+  {
+    "question": "Who has the most stars on Github?",
+    "answers": [
+      {
+        "text": "Angular",
+        "isTrue": false
+      },
+      {
+        "text": "Vue",
+        "isTrue": true
+      },
+      {
+        "text": "React",
+        "isTrue": false
+      },
+      {
+        "text": "Svelte",
+        "isTrue": false
+      }
+    ],
+    "prize": 500
+  },
+  {
+    "question": "Who is John Galt?",
+    "answers": [
+      {
+        "text": "Sportsman",
+        "isTrue": false
+      },
+      {
+        "text": "Book character",
+        "isTrue": true
+      },
+      {
+        "text": "Musician",
+        "isTrue": false
+      },
+      {
+        "text": "Politician",
+        "isTrue": false
+      }
+    ],
+    "prize": 1000
+  },
+  {
+    "question": "What sport americans love most?",
+    "answers": [
+      {
+        "text": "Basketball",
+        "isTrue": false
+      },
+      {
+        "text": "Soccer",
+        "isTrue": false
+      },
+      {
+        "text": "Baseball",
+        "isTrue": false
+      },
+      {
+        "text": "American Football",
+        "isTrue": true
+      }
+    ],
+    "prize": 2000
+  },
+  {
+    "question": "The biggest cat in the world?",
+    "answers": [
+      {
+        "text": "Lion",
+        "isTrue": false
+      },
+      {
+        "text": "Cheetah",
+        "isTrue": false
+      },
+      {
+        "text": "Leopard",
+        "isTrue": false
+      },
+      {
+        "text": "Tiger",
+        "isTrue": true
+      }
+    ],
+    "prize": 4000
+  },
+  {
+    "question": "Which from below is not a JS framework?",
+    "answers": [
+      {
+        "text": "Express",
+        "isTrue": false
+      },
+      {
+        "text": "Next",
+        "isTrue": false
+      },
+      {
+        "text": "Django",
+        "isTrue": true
+      },
+      {
+        "text": "Koa",
+        "isTrue": false
+      }
+    ],
+    "prize": 8000
+  },
+  {
+    "question": "What is the capital of Albania?",
+    "answers": [
+      {
+        "text": "Belgrad",
+        "isTrue": false
+      },
+      {
+        "text": "Tirana",
+        "isTrue": true
+      },
+      {
+        "text": "Skopje",
+        "isTrue": false
+      },
+      {
+        "text": "Tallin",
+        "isTrue": false
+      }
+    ],
+    "prize": 16000
+  },
+  {
+    "question": "A discouraging event or person is said to \"take the wind out of your\" what?",
+    "answers": [
+      {
+        "text": "Baloon",
+        "isTrue": false
+      },
+      {
+        "text": "Hair",
+        "isTrue": false
+      },
+      {
+        "text": "Sails",
+        "isTrue": true
+      },
+      {
+        "text": "Wheel",
+        "isTrue": false
+      }
+    ],
+    "prize": 32000
+  },
+  {
+    "question": "Which of the following is not a character from the classic comic strip \"Peanuts\"?",
+    "answers": [
+      {
+        "text": "Rerun Van Pelt",
+        "isTrue": false
+      },
+      {
+        "text": "Pig Pen",
+        "isTrue": false
+      },
+      {
+        "text": "Peppermint Patty",
+        "isTrue": false
+      },
+      {
+        "text": "Beavis",
+        "isTrue": true
+      }
+    ],
+    "prize": 64000
+  },
+  {
+    "question": "According to a popular phrase, a person having a fun adventure is said to be \"on a\" what?",
+    "answers": [
+      {
+        "text": "Shopping spree",
+        "isTrue": false
+      },
+      {
+        "text": "Goose",
+        "isTrue": false
+      },
+      {
+        "text": "Lark",
+        "isTrue": true
+      },
+      {
+        "text": "Loon",
+        "isTrue": false
+      }
+    ],
+    "prize": 125000
+  },
+  {
+    "question": "Which of below is not japanese car?",
+    "answers": [
+      {
+        "text": "Honda",
+        "isTrue": false
+      },
+      {
+        "text": "Subaru",
+        "isTrue": false
+      },
+      {
+        "text": "Toyota",
+        "isTrue": false
+      },
+      {
+        "text": "Renault",
+        "isTrue": true
+      }
+    ],
+    "prize": 250000
+  },
+  {
+    "question": "What is the name of my cat?",
+    "answers": [
+      {
+        "text": "Chris",
+        "isTrue": false
+      },
+      {
+        "text": "Bobby",
+        "isTrue": true
+      },
+      {
+        "text": "Malcolm",
+        "isTrue": false
+      },
+      {
+        "text": "Fred",
+        "isTrue": false
+      }
+    ],
+    "prize": 500000
+  },
+  {
+    "question": "What sport I used to do, when I was a teenager?",
+    "answers": [
+      {
+        "text": "Gymnastics",
+        "isTrue": false
+      },
+      {
+        "text": "Football",
+        "isTrue": false
+      },
+      {
+        "text": "Basketball",
+        "isTrue": true
+      },
+      {
+        "text": "Boxing",
+        "isTrue": false
+      }
+    ],
+    "prize": 1000000
+  }
+]

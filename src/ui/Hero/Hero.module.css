@@ -1,0 +1,19 @@
+.content {
+    display: flex;
+    align-items: center;
+    column-gap: 120px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content {
+        column-gap: 60px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content {
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 42px;
+    }
+}
