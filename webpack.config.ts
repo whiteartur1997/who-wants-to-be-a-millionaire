@@ -95,7 +95,7 @@ module.exports = ({ mode, port }: EnvVars) => {
     plugins:[
       new HtmlWebpackPlugin({
         title: 'Who wants to be a millionaire',
-        template: './index.html',
+        template: './public/index.html',
       }),
       new MiniCssExtractPlugin(),
     ],
