@@ -1,6 +1,7 @@
 import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+const CopyPlugin = require('copy-webpack-plugin');
 
 interface EnvVars {
   mode: 'production' | 'development';
@@ -98,6 +99,13 @@ module.exports = ({ mode, port }: EnvVars) => {
         template: './public/index.html',
       }),
       new MiniCssExtractPlugin(),
+      new CopyPlugin({
+        patterns: [
+          {
+            from: path.resolve(__dirname, 'public', 'questions.json'),
+          },
+        ],
+      }),
     ],
   };
 };
