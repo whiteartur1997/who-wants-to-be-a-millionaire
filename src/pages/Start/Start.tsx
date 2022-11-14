@@ -7,6 +7,7 @@ import Hero from 'ui/Hero/Hero';
 
 const Start = () => {
   const navigate = useNavigate();
+
   const onClick = () => {
     navigate('/game');
   };
